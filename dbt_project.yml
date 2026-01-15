@@ -45,3 +45,9 @@ models:
       +materialized: view
 
 
+vars:
+   wrk_schema: BRONZE_SCHEMA
+   file_format_csv: SCD2_DB.BRONZE_SCHEMA.SCD2_CSV_FORMAT
+   purge_status: FALSE
+   stage_name: SCD2_DB.BRONZE_SCHEMA.SCD2_STG
+   rawhist_db: SCD2_DB
